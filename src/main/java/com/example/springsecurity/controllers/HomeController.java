@@ -13,11 +13,17 @@ public class HomeController {
 
    @RequestMapping("/")
    public String index(){
-      return "Index";
+      return "index";
    }
 
    @RequestMapping("/admin")
    public String admin(){
       return "admin";
    }
+
+   @RequestMapping("/secure")
+   public String secure(){
+      return "secure";
+   }
+
 }
